@@ -24,9 +24,15 @@ rect(50,60,300,400);
 fill(31, 31, 31);
 rect(45,55,310,10);
 
-//Chair PT1
-fill(31, 31, 31);
-ellipse(200,280,200,150);
+//Tail
+fill(117, 111, 104);
+ellipse(295,270,50,50);
+fill(46, 45, 45);
+ellipse(290,280,50,50);
+fill(117, 111, 104);
+ellipse(295,290,50,50);
+fill(46, 45, 45);
+ellipse(290,300,50,50);
 
 //Body
 fill(140, 133, 125);
@@ -42,6 +48,15 @@ fill(117, 111, 104);
 ellipse(160,140,40,60);
 ellipse(240,140,40,60);
 
+//Headphones
+stroke(31, 31, 31);
+strokeWeight(10);
+noFill();
+arc(200,205,180,180,PI,TWO_PI);
+noStroke();
+fill(31, 31, 31);
+rect(105,145,30,60);
+rect(265,145,30,60);
 
 //Head
 fill(140, 133, 125);
@@ -49,28 +64,38 @@ ellipse(200,180,150,100);
 ellipse(200,200,200,50);
 triangle(102,207,298,207,200,237);
 
-//Face
+//Face 
 fill(255, 255, 255);
 triangle(130,205,270,205,200,230);
 arc(200,205,125,125,PI,TWO_PI);
 ellipse(200,200,150,40);
-fill(46, 45, 45);
-ellipse(200,205,35,25);
+fill(140, 133, 125);
+triangle(176,134,224,134,200,160);
 
+//Eye Lines And Nose
 stroke(46, 45, 45);
 strokeWeight(31);
 line(200+25,170,200+55,190);
 line(200-25,170,200-55,190);
-
+stroke(117, 111, 104);
+strokeWeight(10);
+line(200,150,200,200);
 noStroke();
 strokeWeight(0);
-//fill(0, 0, 0);
-//rect(0,0,400,40);
-//rect(0,360,400,40);
+fill(117, 111, 104);
+triangle(185,200,215,200,200,180);
 
-////Chair PT2
-//fill(31, 31, 31);
-//ellipse(100,320,60,50);
+//Snoot Booper
+fill(46, 45, 45);
+ellipse(200,205,35,25);
+
+//Eyes
+fill(0,0,0);
+ellipse(225,170,23,23);
+ellipse(175,170,23,23);
+fill(255,255,255);
+ellipse(228,165,5,5);
+ellipse(172,165,5,5);
 
 //Desk
 fill(64, 35, 7);
